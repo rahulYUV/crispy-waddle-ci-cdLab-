@@ -14,7 +14,7 @@ GitHub Actions is a cloud-based CI/CD service that runs automated workflows dire
 6. In repository settings, set Pages source to `GitHub Actions`.
 7. Push a commit to the `main` branch.
 8. GitHub Actions will run automatically on every push.
-9. The workflow will package the static site into `dist/` and deploy it to GitHub Pages.
+9. The workflow will package the static site (from `index.html`) into `dist/` and deploy it to GitHub Pages.
 
 ## Pipeline Flow
 - Checkout code from GitHub

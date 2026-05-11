@@ -25,12 +25,11 @@ jobs:
       - name: Validate files
         run: |
           test -f index.html
-          test -f app.js
 
       - name: Prepare site
         run: |
           mkdir -p dist
-          cp index.html app.js dist/
+          cp index.html dist/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
